@@ -81,7 +81,7 @@ source eval_highway_deit.sh
 Other hyperparameters are are kept unchanged from the original baselines.
 
 ## Acknowledge
-This repository is built using the [transformers](https://github.com/huggingface/transformers) library.
+This repository is built upon the [transformers](https://github.com/huggingface/transformers) and [DeeBERT](https://github.com/castorini/DeeBERT) library. Thanks for these awesome open-source projects!
 
 ## Citation
 
