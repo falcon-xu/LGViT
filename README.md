@@ -18,7 +18,7 @@ pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --e
 pip install transformers==4.26.0 datasets==2.9.0 evaluate==0.4.0 timm==0.6.13 wandb==0.14.2 ipykernel scikit-learn
 ```
 
-Enter the  `scripts` folder to execute the scripts for training and evaluation
+Enter the `scripts` folder to execute the scripts for training and evaluation
 
 ```bash
 cd ./scripts
@@ -80,7 +80,10 @@ source eval_highway_deit.sh
 
 Other hyperparameters are are kept unchanged from the original baselines.
 
-## Acknowledge
+
+
+## Acknowledgments
+
 This repository is built upon the [transformers](https://github.com/huggingface/transformers) and [DeeBERT](https://github.com/castorini/DeeBERT) library. Thanks for these awesome open-source projects!
 
 ## Citation
