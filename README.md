@@ -1,8 +1,6 @@
-
 # LGViT
-Official PyTorch implementation of "LGViT: Dynamic Early Exiting for Accelerating Vision Transformer" (ACM MM 2023)
 
-
+Official PyTorch implementation of "LGViT: Dynamic Early Exiting for Accelerating Vision Transformer" (**ACM MM 2023**)
 
 ## Usage
 
@@ -84,3 +82,15 @@ Other hyperparameters are are kept unchanged from the original baselines.
 
 ## Acknowledge
 This repository is built using the [transformers](https://github.com/huggingface/transformers) library.
+
+## Citation
+
+If you find our work or this code useful, please consider citing the corresponding paper:
+```
+@article{xu2023lgvit,
+  title={LGViT: Dynamic Early Exiting for Accelerating Vision Transformer},
+  author={Xu, Guanyu and Hao, Jiawei and Shen, Li and Hu, Han and Luo, Yong and Lin, Hui and Shen, Jialie},
+  journal={arXiv preprint arXiv:2308.00255},
+  year={2023}
+}
+```
