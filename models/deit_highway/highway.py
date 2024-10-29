@@ -246,8 +246,11 @@ class DeiTHighway_v2(nn.Module):
         
         hidden_states = encoder_outputs[0]
         cls_embeddings = hidden_states[:, 0, :]
-        distillation_embeddings = hidden_states[:, 1, :]
-        patch_embeddings = hidden_states[:, 2:, :]
+        if self.config.backbone == 'DeiT':
+            distillation_embeddings = hidden_states[:, 1, :]
+            patch_embeddings = hidden_states[:, 2:, :]
+        elif self.config.backbone == 'ViT':
+            patch_embeddings = hidden_states[:, 1:, :]
 
         if self.highway_type == 'self_attention':
             x = self.mlp(patch_embeddings)[0]
