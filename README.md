@@ -15,7 +15,7 @@ Then, install PyTorch and [transformers 4.26.0](https://github.com/huggingface/t
 ```bash
 conda create -n lgvit python=3.9.13
 pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu113
-pip install transformers==4.26.0 datasets==2.9.0 evaluate==0.4.0 timm==0.6.13 wandb==0.14.2 ipykernel scikit-learn
+pip install transformers==4.26.0 datasets==2.16.1 evaluate==0.4.0 timm==0.6.13 wandb==0.14.2 ipykernel scikit-learn
 ```
 
 Enter the `scripts` folder to execute the scripts for training and evaluation
